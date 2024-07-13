@@ -20,7 +20,8 @@ npm install
 npm run dev
 
 Backend configuration
-1. Environment Files: Navigate to the backend folder and create .env file. Add the following contents to both files
+Environment Files: 
+- Navigate to the backend folder and create .env file. Add the following contents to both files
 
 MONGODB_CONNECTION_STRING=
 
@@ -38,19 +39,20 @@ CLOUDINARY_API_SECRET=
 
 MongoDB Setup:
 
-Sign up for an account at MongoDB Atlas.
-Create a new cluster and follow the instructions to set up a new database.
-Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING variable in your .env files.
+- Sign up for an account at MongoDB Atlas.
+- Create a new cluster and follow the instructions to set up a new database.
+- Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING variable in your .env files.
 
 Cloudinary Setup:
 
-Create an account at Cloudinary.
-Navigate to your dashboard to find your cloud name, API key, and API secret.
-Add these details to the respective CLOUDINARY_* variables in your .env files.
+- Create an account at Cloudinary.
+- Navigate to your dashboard to find your cloud name, API key, and API secret.
+- Add these details to the respective CLOUDINARY_* variables in your .env files.
 
 JWT_SECRET_KEY:
 
 This just needs to be any long, random string. You can google "secret key generator".
+
 Frontend URL:
 
 The FRONTEND_URL should point to the URL where your frontend application is running.
