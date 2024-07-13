@@ -57,7 +57,8 @@ Frontend URL:
 
 The FRONTEND_URL should point to the URL where your frontend application is running.
 
-Environment Files: Navigate to the frontend folder and create a file: .env:
+Environment Files: 
+- Navigate to the frontend folder and create a file: .env:
 
 VITE_API_BASE_URL=
 
